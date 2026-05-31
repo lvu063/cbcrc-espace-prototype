@@ -5,7 +5,7 @@
 
 ## Live Demo
 
-**[View live prototype →](YOUR_LOVABLE_URL_HERE)**
+**[View live prototype →](https://espace-cbc-rc.lovable.app)**
 
 ---
 
