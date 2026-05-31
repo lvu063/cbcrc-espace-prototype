@@ -146,7 +146,3 @@ I'm a bilingual journalist (FR/EN/VI) who has spent three years building and man
 Espace is built on a core belief: **francophone spaces online should reward participation, not punish imperfection.** People shouldn't have to choose between their two languages to feel welcome. That's not just a product feature — it's a reflection of how many Canadians actually live.
 
 This prototype is my attempt to speak both languages at once: the language of journalism and community, and the language of code.
-
----
-
-*Lê (Hai-Huong Le Vu) | [LinkedIn](https://www.linkedin.com/in/hai-huong-le-vu/) | [AC Media Analytics Project](https://github.com/[your-github-username]/ac-media-analytics)*
