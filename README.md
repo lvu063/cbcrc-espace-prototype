@@ -83,21 +83,32 @@ Espace is a bilingual (FR/EN) community platform prototype that directly address
 
 ```
 cbcrc-espace-prototype/
-├── src/
-│   ├── App.jsx                    # Root component — tab navigation, language toggle
-│   ├── hooks/
-│   │   └── useLanguage.js         # Custom hook — bilingual state management
-│   ├── components/
-│   │   ├── HomeTab.jsx            # Comment feed with positivity nudge
-│   │   ├── DebateTab.jsx          # Opinion mapping with SVG visualisation
-│   │   ├── ModerationTab.jsx      # AI-assisted moderation dashboard
-│   │   └── ImpactTab.jsx          # Analytics with animated counters
-│   └── data/
-│       └── mockData.js            # Structured mock data — API-ready schema
-└── README.md
+├── server.js                      # Express.js REST API — 10 endpoints
+├── server.test.js                 # Integration tests — 21 tests, all passing
+├── package.json                   # Dependencies + npm scripts
+├── CHANGELOG.md                   # Versioned development history
+├── CONTRIBUTING.md                # Git workflow, Agile process, bilingual guidelines
+├── README.md                      # Problem/solution mapping, production roadmap
+├── .github/
+│   ├── pull_request_template.md   # Bilingual PR checklist
+│   └── ISSUE_TEMPLATE/
+│       ├── feature.md             # Feature request template (FR/EN)
+│       └── bug.md                 # Bug report template
+└── src/
+    ├── App.jsx                    # Root component — tab navigation, language toggle
+    ├── types.ts                   # TypeScript interfaces — shared frontend/backend types
+    ├── hooks/
+    │   ├── useLanguage.js         # Custom hook — bilingual state management
+    │   └── useLanguage.test.js    # Unit tests — 11 tests covering toggle, t(), stability
+    ├── components/
+    │   ├── HomeTab.jsx            # Comment feed with positivity nudge + franglais detection
+    │   ├── DebateTab.jsx          # Opinion mapping with SVG cluster visualisation
+    │   ├── ModerationTab.jsx      # AI-assisted moderation dashboard + toxicity scoring
+    │   └── ImpactTab.jsx          # Analytics with animated count-up counters
+    └── data/
+        ├── mockData.js            # Structured bilingual mock data — ES module (frontend)
+        └── mockData.cjs           # CommonJS version — consumed by Express server
 ```
-
----
 
 ## Design Decisions
 
